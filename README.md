@@ -1,3 +1,6 @@
+# for standalone ansible control machine
+docker run -it --entrypoint=sh jmal98/ansiblecm:2.10.1
+
 # Ansible Control Machine (Docker'ized)
 
 A Docker based Ansible control machine useful for running playbooks with a consistent environment.  Other similar images look to build the software items into a Docker image using Ansible, or automate the creation of a control machine, but what I wanted is to be able to run Ansible playbooks consistently using an immutable environment.
